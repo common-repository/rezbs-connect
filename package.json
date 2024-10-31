@@ -1,0 +1,26 @@
+{
+  "name": "rezbs-connect",
+  "version": "1.0.0",
+  "description": "=== RezBS Connect === Contributors: ben, sergey Tags: rezbs, booking, third-party integration Requires at least: 4 Tested up to: 4.6.1 Stable tag: 1.2 License: GPLv2 or later",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@wordpress/scripts": "16.0.0"
+  },
+  "dependencies": {
+    "@wordpress/compose": "^4.0.0",
+    "@wordpress/date": "^4.0.0",
+    "@wordpress/i18n": "^4.0.0",
+    "edit": "^1.0.2"
+  }
+}
